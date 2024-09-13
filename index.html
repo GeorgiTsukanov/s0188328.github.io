@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>задание №1</title>
+  </head>
+
+  <body>
+    <!--ссылки-->
+    <ul>
+      <li><a href="https://www.kubsu.ru">1 абсолютная гиперссылка на главную страницу сайта kubsu.ru</a></li>
+      <li><a href="https://www.kubsu.ru/index.php">2 абсолютная на главную сайта kubsu.ru в протоколе https</a></li>
+      <li><img src="image.jpg" style="width: 600px;"/></li>
+      <li><a href="/news">4 сокращённая ссылка на внутреннюю страницу новости</a></li>
+      <li><a href="/">5 сокращённая ссылка на главную страницу</a></li>
+      <li><a href="#check-box">6 ссылка на фрагмент текущей страницы</a></li>
+      <li><a href="">7 ссылка с тремя параметрами в URL</a></li>
+      <li><a href="">8 ссылка с параметром id в URL</a></li>
+      <li><a href="">9 относительная ссылка на страницу в текущем каталоге;</a></li>
+      <li><a href="">10 относительная ссылка на страницу в каталоге about</a></li>
+      <li><a href="">11 относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+      <li><a href="">12 относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+      <li><a href="">13 контекстная ссылка в тексте абзаца</a></li>
+      <li><a href="">14 ссылка на фрагмент страницы стороннего сайта</a></li>
+      <li><a href="">15 ссылки из прямоугольных и круглых областей картинки</a></li>
+      <li><a href="">16 ссылка с пустым href</a></li>
+      <li><a href="">17 ссылка без href</a></li>
+      <li><a href="">18 ссылка, по которой запрещен переход поисковикам</a></li>
+      <li><a href="">19 сссылка, запрещенная для индексации поисковиками</a></li>
+      <li><a href="">20 нумерованный список ссылок с подписями title</a></li>
+      <li><a href="">21 ссылка на файл на сервере FTP с авторизацией</a></li>
+    </ul>
+
+    <form action="/" 
+      method="POST">
+      <label></br>
+      <input name="field-name"
+          placeholder="ФИО"/>
+      </label></br>
+
+      <label> 
+        Введите ваш номер телефона</br>
+        <input name="field-tell"
+          type="tel"
+          placeholder="89186197534"/>
+      </label></br>
+
+      <label>
+        Введите ваш email:<br/>
+        <input name="field-email"
+          type="email"/>
+      </label><br/>
+
+      <label>
+        Текстовое поле даты:<br/>
+        <input name="field-date"
+          value="2003-06-13"
+          type="date"/>
+      </label><br/>
+
+      <label>
+        Ваш пол:<br/>
+        <label>
+          <input type="radio"
+            checked="checked"
+            name="radio-group-1" value="female"/>
+            Женский
+          </label><br/>
+          <label><input type="radio"
+            name="radio-group-1" 
+            value="male"/>
+            Мужской
+          </label><br/>
+      </label>
+
+      <label>
+        Ваш любимый язык программирования:<br/>
+        <select name="field-list[]"
+          multiple="multiple">
+          <option value="paskal">Paskal</option>
+          <option value="c">C</option>
+          <option value="c++">C++</option>
+          <option value="javascript">JavaScript</option>
+          <option value="php">PHP</option>
+          <option value="python">Python</option>
+          <option value="java">Java</option>
+          <option value="haskel">Haskel</option>
+          <option value="clojure">Clojure</option>
+          <option value="prolog">Prolog</option>
+          <option value="scala">Scala</option>
+        </select>
+      </label><br/>
+
+      <label>
+        Напишите автобиографию:<br/>
+        <textarea name="field-autobiography"
+          placeholder="не пишите красивую историю о ваших подвигах и победах"></textarea>
+      </label></br>
+
+      <label>
+        <input type="checkbox"
+        name="check-box"
+        id="check-box"/>
+        С контрактом ознакомлен(а)
+      </label><br/>
+
+      <input type="submit" value="Отправить" />
+
+    </form>
+  </body>
+</html>
