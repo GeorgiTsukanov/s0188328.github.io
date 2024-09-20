@@ -1,0 +1,77 @@
+div.f{
+    background-color: #f4e8e8;
+    width: 50%; 
+    max-width: 960px;
+    padding: 10px;
+
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.heading{
+    padding: 20px;
+    float: left ;
+}
+
+img.logo{
+    float:left; 
+    width:100px; 
+    height:100px;
+}
+
+div.s{
+    width:100%; 
+    background-color: #f4e8e8;
+    padding: 10px; 
+    height:100px;
+}
+
+body{
+    margin: auto;
+}
+
+table.MyTable {
+	width: 40%;
+	border-collapse: collapse;
+	text-align: center;
+	margin: auto;
+}
+
+tr{
+    border: 2px solid black;
+	padding: 10px;
+	font-size: 18px;;
+}
+
+td{
+    border: 2px solid black;
+}
+
+th{
+    border: 2px solid black;
+}
+
+tr.chet{
+    background-color: brown;
+}
+
+tr.nechet{
+    background-color: burlywood;
+}
+
+ul.list {
+    float: right;
+	display: flex;
+	gap: 50px;
+    padding-right: 20px ;
+}
+
+html{
+    min-width: 600px;
+}
+
+main.center{
+    justify-content: center;
+	text-align: center;
+}
