@@ -1,7 +1,7 @@
 div.f{
+    max-width: 960px;
     background-color: #f4e8e8;
     padding: 10px;
-    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -36,16 +36,11 @@ table.MyTable {
 }
 
 tr{
-    border: 2px solid black;
 	padding: 10px;
 	font-size: 18px;;
 }
 
-td{
-    border: 2px solid black;
-}
-
-th{
+td, th, tr{
     border: 2px solid black;
 }
 
